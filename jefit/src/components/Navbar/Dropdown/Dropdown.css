@@ -1,0 +1,17 @@
+.dropdown{
+    cursor: pointer;
+    background-color: red;
+    /* width: 12rem; */
+}
+.dropdown-element{
+    cursor: pointer;
+    display: none;
+}
+.dropdown:hover .dropdown-element{
+    display: block;
+    visibility: visible;
+    cursor: pointer; 
+}
+.dropdown-element{
+    margin: 1rem;
+}
